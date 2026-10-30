@@ -1,0 +1,8 @@
+export const tours = [
+    { id: 'north', name: 'Khám phá Bắc Đảo', tag: 'Vui chơi & khám phá', days: 3, price: 3500000, image: '/north.jpg', stops: 'VinWonders · Safari · Chợ đêm', plan: ['Đón sân bay – Bắc Đảo – Check-in khách sạn – Ăn tối', 'VinWonders – Safari – Chợ đêm Dương Đông', 'King Kong Mart – Đặc sản Phú Quốc – Sân bay'] },
+    { id: 'rach-vem', name: 'Rạch Vẹm & thiên nhiên', tag: 'Biển xanh & thư giãn', days: 3, price: 3800000, image: '/beach.jpg', stops: 'Rạch Vẹm · VinWonders · Safari', plan: ['Đón sân bay – Rạch Vẹm – Khách sạn Bắc Đảo – Ăn tối', 'VinWonders – Safari – Ăn tối', 'Shopping – Ăn trưa – Sân bay'] },
+    { id: 'sunset', name: 'Hẹn với hoàng hôn', tag: 'Check-in & trải nghiệm', days: 3, price: 4100000, image: '/sunset.jpg', stops: 'Sunset Town · VinWonders · Safari', plan: ['Đón sân bay – Sunset Town – Ăn tối', 'VinWonders – Safari – Ăn tối – Khách sạn Bắc Đảo', 'Shopping – Ăn trưa – Sân bay'] },
+    { id: 'island', name: 'Một vòng đảo ngọc', tag: 'Bắc Đảo đến Nam Đảo', days: 4, price: 4600000, image: '/north.jpg', stops: 'Rạch Vẹm · Safari · Hòn Thơm', plan: ['Đón sân bay – Rạch Vẹm – Check-in khách sạn Bắc Đảo', 'VinWonders – Safari – Chợ đêm Dương Đông', 'Nam Đảo (Cáp treo Hòn Thơm) – Khách sạn Bắc Đảo', 'Shopping – Ăn trưa – Sân bay'] },
+    { id: 'coast', name: 'Sắc màu Phú Quốc', tag: 'Biển & phố hoàng hôn', days: 4, price: 4500000, image: '/sunset.jpg', stops: 'Sunset Town · Bắc Đảo · Rạch Vẹm', plan: ['Đón sân bay – Sunset Town', 'Sunset Town – VinWonders – Safari – Khách sạn Vin', 'Bắc Đảo – Rạch Vẹm', 'Bắc Đảo – Shopping – Sân bay'] }
+];
+export const money = (n) => new Intl.NumberFormat('vi-VN').format(n) + 'đ';
